@@ -1,42 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>1way by 1way</title>
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>不二居士 by 1way</title>
   </head>
+
   <body>
-    <div class="wrapper">
+    <a id="forkme_banner" href="https://github.com/1way/home">View on GitHub</a>
+    <div class="shell">
+
       <header>
-        <h1>1way</h1>
-        <p>1way</p>
-
-        <p class="view"><a href="https://github.com/1way/1way">View the Project on GitHub <small>1way/1way</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/1way/1way/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/1way/1way/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/1way/1way">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>不二居士</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
       </header>
-      <section>
-        <h1>
-<a name="111" class="anchor" href="#111"><span class="octicon octicon-link"></span></a>111</h1>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/1way/home/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/1way/home/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
       </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>
+<a name="official-home-page" class="anchor" href="#official-home-page"><span class="octicon octicon-link"></span></a>Official Home Page</h3>
+
+<p>BERKSHIRE HATHAWAY INC.
+3555 Farnam Street
+Suite 1440
+Omaha, NE 68131</p>
+      </section>
+
       <footer>
-        <p>This project is maintained by <a href="https://github.com/1way">1way</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/1way">1way</a> can be found on <a href="https://github.com/1way/home">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
   </body>
 </html>
